@@ -12,14 +12,31 @@
     font-size: 1.3em;
 }
 
+.container-city:hover{
+    background-color: #000;
+    color: white;
+}
+
+.container-city{
+    transition: background-color 0.45s linear 0s;
+}
+
 .Link{
     color: black;
     text-decoration: none;
     width: 100%;
 }
 
+.Link:hover{
+    color: white;
+}
+
+.Link{
+    transition: color 0.45s linear 0s;
+}
+
 .button{
-    background-color: rgb(255, 64, 64);
+    background-color: rgb(250, 121, 121);
     margin: 3px;
     align-self: flex-end;
     font-size: 1em;
@@ -30,7 +47,7 @@
 
 .button:hover{
     background-color: rgb(255, 0, 0);
-    cursor:     ;
+    cursor: pointer;
 }
 
 p{
