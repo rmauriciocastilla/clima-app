@@ -1,0 +1,10 @@
+body{
+    background-image: url("body.gif");
+    background-size: 120%;
+}
+
+.container-cities{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

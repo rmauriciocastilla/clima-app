@@ -1,0 +1,38 @@
+.container-navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.544);
+    padding: 15px;
+    justify-content: space-between;
+}
+
+
+.navbar-title{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.641);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -2px #787878;
+}
+
+
+#input-text{
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 40px 0px 0px 40px;
+    background-color: rgba(255, 255, 255, 0.641);
+    border: 1px solid gray;
+    outline: none;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px -2px #787878;
+}
+
+#input-button{
+    padding: 15px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.641);
+    border-radius: 0px 40px 40px 0px;
+    border: 1px solid gray;
+    font-weight: bold;
+    
+    box-shadow: 5px 5px 15px -2px #787878;
+}
