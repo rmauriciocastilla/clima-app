@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { deleteCity } from "../../redux/actions";
 import { Link } from "react-router-dom";
 
-export default function City({id,name,temp,temp_min,temp_max,idImg}){
+export default function City({id,name,temp,idImg}){
 
     const dispatch = useDispatch();
     
@@ -15,8 +15,6 @@ export default function City({id,name,temp,temp_min,temp_max,idImg}){
                 <h3>{name}</h3>
                 <img src={`http://openweathermap.org/img/wn/${idImg}@2x.png`}/>
                 <h3>{temp} °C</h3>
-                {/* <p>Max: {temp_max} °C</p>
-                <p>Min: {temp_min} °C</p> */}
             </Link>
         </div>
     )

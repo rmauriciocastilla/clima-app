@@ -18,7 +18,10 @@ export default function CityDetail({match}){
                 !cityDetail.main?"":
             <div className="container-detail">
                 <Link className="button-paginacion" to="/">Back</Link>
-                <h1 className="detail-title">{cityDetail.name}, {cityDetail.sys.country}</h1>
+                <div className="flex-center">
+                    <h1 className="detail-title">{cityDetail.name}, {cityDetail.sys.country}</h1>
+                    <img src={`http://openweathermap.org/img/wn/${cityDetail.weather[0].icon}@2x.png`}/>
+                </div>
 
                 <div className="container-details-city">
                     <div>
